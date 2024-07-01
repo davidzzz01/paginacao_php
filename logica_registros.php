@@ -7,7 +7,7 @@ $cidade_count=$cidade_qtd->fetch_assoc();
 $count_cidade=$cidade_count["COUNT(*)"];
 
 //calculo para a paginação
-$page=$_GET['page'];
+$page = isset($_GET['page']) ? $_GET['page'] : 1;
 $limit=10;
 $offset =($page-1) * $limit;
 
