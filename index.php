@@ -14,10 +14,10 @@ include("logica_registros.php");
 <body>
     <h1 class="text-center mb-4 mt-4" >Cidades do Brasil</h1>
     <div class="container">
-    <table class="table table-striped">
+    <table class="table table-bordered table-striped table-condensed">
     <thead class="bg-primary text-light ">
         <tr>
-            <th>ID</th>
+            <th style="width:80px;" >ID</th>
             <th>Nome</th>
             <th>Estado</th>
            
@@ -50,4 +50,5 @@ include("logica_registros.php");
 
 </div>
 </body>
+
 </html>
